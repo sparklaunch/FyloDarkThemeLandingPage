@@ -26,9 +26,10 @@ struct ContentView: View {
                                 FeatureView(feature: feature)
                             }
                         }
-                        VStack {
+                        VStack(alignment: .leading) {
                             StayProductiveIllustrationView()
                             StayProductiveView()
+                            SeeDetailView()
                         }
                     }
                     .padding(.top, 44)

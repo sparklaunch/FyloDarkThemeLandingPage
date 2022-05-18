@@ -24,6 +24,7 @@
 		90D4F30E283486D4003B7048 /* FeatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4F30D283486D4003B7048 /* FeatureView.swift */; };
 		90D4F31028348899003B7048 /* StayProductiveIllustrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4F30F28348899003B7048 /* StayProductiveIllustrationView.swift */; };
 		90D4F31228348904003B7048 /* StayProductiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4F31128348904003B7048 /* StayProductiveView.swift */; };
+		90D4F314283489D7003B7048 /* SeeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4F313283489D7003B7048 /* SeeDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		90D4F30D283486D4003B7048 /* FeatureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureView.swift; sourceTree = "<group>"; };
 		90D4F30F28348899003B7048 /* StayProductiveIllustrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StayProductiveIllustrationView.swift; sourceTree = "<group>"; };
 		90D4F31128348904003B7048 /* StayProductiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StayProductiveView.swift; sourceTree = "<group>"; };
+		90D4F313283489D7003B7048 /* SeeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeeDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +133,7 @@
 				90D4F30D283486D4003B7048 /* FeatureView.swift */,
 				90D4F30F28348899003B7048 /* StayProductiveIllustrationView.swift */,
 				90D4F31128348904003B7048 /* StayProductiveView.swift */,
+				90D4F313283489D7003B7048 /* SeeDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -246,6 +249,7 @@
 				90D4F30A28348528003B7048 /* Feature.swift in Sources */,
 				90D4F30428348359003B7048 /* IntroView.swift in Sources */,
 				90D4F306283483B3003B7048 /* HeaderView.swift in Sources */,
+				90D4F314283489D7003B7048 /* SeeDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
