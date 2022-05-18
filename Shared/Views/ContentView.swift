@@ -28,6 +28,7 @@ struct ContentView: View {
                         }
                         VStack {
                             StayProductiveIllustrationView()
+                            StayProductiveView()
                         }
                     }
                     .padding(.top, 44)
