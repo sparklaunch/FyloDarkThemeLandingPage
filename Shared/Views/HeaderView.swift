@@ -22,7 +22,7 @@ struct HeaderView: View {
                 .lineSpacing(5)
                 .fixedSize(horizontal: false, vertical: true)
         }
-        .padding()
+        .padding(24)
     }
 }
 

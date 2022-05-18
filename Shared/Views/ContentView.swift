@@ -10,21 +10,32 @@ import SwiftUI
 struct ContentView: View {
     @StateObject private var featureStorage: FeatureStorage = .init()
     var body: some View {
-        ZStack(alignment: .top) {
-            BackgroundView()
+        ScrollView {
             VStack {
-                VStack(spacing: 24) {
-                    TopNavigationView()
-                    IntroView()
-                    HeaderView()
-                    GetStartedButtonView()
+                ZStack(alignment: .top) {
+                    BackgroundView()
+                    VStack(spacing: 100) {
+                        VStack(spacing: 24) {
+                            TopNavigationView()
+                            IntroView()
+                            HeaderView()
+                            GetStartedButtonView()
+                        }
+                        VStack(spacing: 36) {
+                            ForEach(featureStorage.features) { feature in
+                                FeatureView(feature: feature)
+                            }
+                        }
+                    }
+                    .padding(.top, 44)
                 }
-                VStack {
-                    
-                }
+                .environmentObject(featureStorage)
             }
         }
-        .environmentObject(featureStorage)
+        .edgesIgnoringSafeArea(.all)
+        .onAppear {
+            UIScrollView.appearance().bounces = false
+        }
     }
 }
 
