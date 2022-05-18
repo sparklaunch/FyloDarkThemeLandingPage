@@ -12,7 +12,7 @@ struct ContentView: View {
         ZStack {
             BackgroundView()
             VStack {
-                
+                TopNavigationView()
             }
         }
     }
