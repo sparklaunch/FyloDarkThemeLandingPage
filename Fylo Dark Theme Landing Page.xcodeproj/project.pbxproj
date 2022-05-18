@@ -13,6 +13,7 @@
 		90D4F2EF28347FE3003B7048 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4F2DD28347FDE003B7048 /* ContentView.swift */; };
 		90D4F2F028347FE3003B7048 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90D4F2DE28347FE3003B7048 /* Assets.xcassets */; };
 		90D4F2F128347FE3003B7048 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90D4F2DE28347FE3003B7048 /* Assets.xcassets */; };
+		90D4F2FE283481EB003B7048 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4F2FD283481EB003B7048 /* BackgroundView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		90D4F2E328347FE3003B7048 /* Fylo Dark Theme Landing Page.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fylo Dark Theme Landing Page.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		90D4F2E928347FE3003B7048 /* Fylo Dark Theme Landing Page.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fylo Dark Theme Landing Page.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		90D4F2EB28347FE3003B7048 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		90D4F2FD283481EB003B7048 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				90D4F2DD28347FDE003B7048 /* ContentView.swift */,
+				90D4F2FD283481EB003B7048 /* BackgroundView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90D4F2FE283481EB003B7048 /* BackgroundView.swift in Sources */,
 				90D4F2EE28347FE3003B7048 /* ContentView.swift in Sources */,
 				90D4F2EC28347FE3003B7048 /* FyloDarkThemeLandingPageApp.swift in Sources */,
 			);
