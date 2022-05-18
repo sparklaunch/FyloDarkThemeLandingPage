@@ -19,6 +19,7 @@
 		90D4F30428348359003B7048 /* IntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4F30328348359003B7048 /* IntroView.swift */; };
 		90D4F306283483B3003B7048 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4F305283483B3003B7048 /* HeaderView.swift */; };
 		90D4F3082834847C003B7048 /* GetStartedButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4F3072834847C003B7048 /* GetStartedButtonView.swift */; };
+		90D4F30A28348528003B7048 /* Feature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4F30928348528003B7048 /* Feature.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		90D4F30328348359003B7048 /* IntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroView.swift; sourceTree = "<group>"; };
 		90D4F305283483B3003B7048 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		90D4F3072834847C003B7048 /* GetStartedButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetStartedButtonView.swift; sourceTree = "<group>"; };
+		90D4F30928348528003B7048 /* Feature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feature.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 		90D4F2FB28347FF8003B7048 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				90D4F30928348528003B7048 /* Feature.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -224,6 +227,7 @@
 				90D4F3082834847C003B7048 /* GetStartedButtonView.swift in Sources */,
 				90D4F2EC28347FE3003B7048 /* FyloDarkThemeLandingPageApp.swift in Sources */,
 				90D4F3022834826A003B7048 /* TopNavigationItemView.swift in Sources */,
+				90D4F30A28348528003B7048 /* Feature.swift in Sources */,
 				90D4F30428348359003B7048 /* IntroView.swift in Sources */,
 				90D4F306283483B3003B7048 /* HeaderView.swift in Sources */,
 			);
