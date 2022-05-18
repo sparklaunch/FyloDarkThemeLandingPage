@@ -19,8 +19,8 @@
 		90D4F2DC28347FDE003B7048 /* FyloDarkThemeLandingPageApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FyloDarkThemeLandingPageApp.swift; sourceTree = "<group>"; };
 		90D4F2DD28347FDE003B7048 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		90D4F2DE28347FE3003B7048 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		90D4F2E328347FE3003B7048 /* FyloDarkThemeLandingPage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FyloDarkThemeLandingPage.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		90D4F2E928347FE3003B7048 /* FyloDarkThemeLandingPage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FyloDarkThemeLandingPage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		90D4F2E328347FE3003B7048 /* Fylo Dark Theme Landing Page.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fylo Dark Theme Landing Page.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		90D4F2E928347FE3003B7048 /* Fylo Dark Theme Landing Page.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fylo Dark Theme Landing Page.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		90D4F2EB28347FE3003B7048 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -54,9 +54,9 @@
 		90D4F2DB28347FDE003B7048 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				90D4F2DC28347FDE003B7048 /* FyloDarkThemeLandingPageApp.swift */,
-				90D4F2DD28347FDE003B7048 /* ContentView.swift */,
-				90D4F2DE28347FE3003B7048 /* Assets.xcassets */,
+				90D4F2FC28347FFD003B7048 /* Views */,
+				90D4F2FB28347FF8003B7048 /* Models */,
+				90D4F2FA28347FF5003B7048 /* App */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -64,8 +64,8 @@
 		90D4F2E428347FE3003B7048 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				90D4F2E328347FE3003B7048 /* FyloDarkThemeLandingPage.app */,
-				90D4F2E928347FE3003B7048 /* FyloDarkThemeLandingPage.app */,
+				90D4F2E328347FE3003B7048 /* Fylo Dark Theme Landing Page.app */,
+				90D4F2E928347FE3003B7048 /* Fylo Dark Theme Landing Page.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -78,12 +78,36 @@
 			path = macOS;
 			sourceTree = "<group>";
 		};
+		90D4F2FA28347FF5003B7048 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				90D4F2DC28347FDE003B7048 /* FyloDarkThemeLandingPageApp.swift */,
+				90D4F2DE28347FE3003B7048 /* Assets.xcassets */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		90D4F2FB28347FF8003B7048 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		90D4F2FC28347FFD003B7048 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				90D4F2DD28347FDE003B7048 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		90D4F2E228347FE3003B7048 /* FyloDarkThemeLandingPage (iOS) */ = {
+		90D4F2E228347FE3003B7048 /* Fylo Dark Theme Landing Page (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 90D4F2F428347FE3003B7048 /* Build configuration list for PBXNativeTarget "FyloDarkThemeLandingPage (iOS)" */;
+			buildConfigurationList = 90D4F2F428347FE3003B7048 /* Build configuration list for PBXNativeTarget "Fylo Dark Theme Landing Page (iOS)" */;
 			buildPhases = (
 				90D4F2DF28347FE3003B7048 /* Sources */,
 				90D4F2E028347FE3003B7048 /* Frameworks */,
@@ -93,14 +117,14 @@
 			);
 			dependencies = (
 			);
-			name = "FyloDarkThemeLandingPage (iOS)";
+			name = "Fylo Dark Theme Landing Page (iOS)";
 			productName = "FyloDarkThemeLandingPage (iOS)";
-			productReference = 90D4F2E328347FE3003B7048 /* FyloDarkThemeLandingPage.app */;
+			productReference = 90D4F2E328347FE3003B7048 /* Fylo Dark Theme Landing Page.app */;
 			productType = "com.apple.product-type.application";
 		};
-		90D4F2E828347FE3003B7048 /* FyloDarkThemeLandingPage (macOS) */ = {
+		90D4F2E828347FE3003B7048 /* Fylo Dark Theme Landing Page (macOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 90D4F2F728347FE3003B7048 /* Build configuration list for PBXNativeTarget "FyloDarkThemeLandingPage (macOS)" */;
+			buildConfigurationList = 90D4F2F728347FE3003B7048 /* Build configuration list for PBXNativeTarget "Fylo Dark Theme Landing Page (macOS)" */;
 			buildPhases = (
 				90D4F2E528347FE3003B7048 /* Sources */,
 				90D4F2E628347FE3003B7048 /* Frameworks */,
@@ -110,9 +134,9 @@
 			);
 			dependencies = (
 			);
-			name = "FyloDarkThemeLandingPage (macOS)";
+			name = "Fylo Dark Theme Landing Page (macOS)";
 			productName = "FyloDarkThemeLandingPage (macOS)";
-			productReference = 90D4F2E928347FE3003B7048 /* FyloDarkThemeLandingPage.app */;
+			productReference = 90D4F2E928347FE3003B7048 /* Fylo Dark Theme Landing Page.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -133,7 +157,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 90D4F2DA28347FDE003B7048 /* Build configuration list for PBXProject "FyloDarkThemeLandingPage" */;
+			buildConfigurationList = 90D4F2DA28347FDE003B7048 /* Build configuration list for PBXProject "Fylo Dark Theme Landing Page" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -146,8 +170,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				90D4F2E228347FE3003B7048 /* FyloDarkThemeLandingPage (iOS) */,
-				90D4F2E828347FE3003B7048 /* FyloDarkThemeLandingPage (macOS) */,
+				90D4F2E228347FE3003B7048 /* Fylo Dark Theme Landing Page (iOS) */,
+				90D4F2E828347FE3003B7048 /* Fylo Dark Theme Landing Page (macOS) */,
 			);
 		};
 /* End PBXProject section */
@@ -243,6 +267,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -295,6 +321,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -324,7 +352,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = me.jinwook.kim.FyloDarkThemeLandingPage;
-				PRODUCT_NAME = FyloDarkThemeLandingPage;
+				PRODUCT_NAME = "Fylo Dark Theme Landing Page";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -354,7 +382,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = me.jinwook.kim.FyloDarkThemeLandingPage;
-				PRODUCT_NAME = FyloDarkThemeLandingPage;
+				PRODUCT_NAME = "Fylo Dark Theme Landing Page";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -384,7 +412,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = me.jinwook.kim.FyloDarkThemeLandingPage;
-				PRODUCT_NAME = FyloDarkThemeLandingPage;
+				PRODUCT_NAME = "Fylo Dark Theme Landing Page";
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -412,7 +440,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = me.jinwook.kim.FyloDarkThemeLandingPage;
-				PRODUCT_NAME = FyloDarkThemeLandingPage;
+				PRODUCT_NAME = "Fylo Dark Theme Landing Page";
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -422,7 +450,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		90D4F2DA28347FDE003B7048 /* Build configuration list for PBXProject "FyloDarkThemeLandingPage" */ = {
+		90D4F2DA28347FDE003B7048 /* Build configuration list for PBXProject "Fylo Dark Theme Landing Page" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				90D4F2F228347FE3003B7048 /* Debug */,
@@ -431,7 +459,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		90D4F2F428347FE3003B7048 /* Build configuration list for PBXNativeTarget "FyloDarkThemeLandingPage (iOS)" */ = {
+		90D4F2F428347FE3003B7048 /* Build configuration list for PBXNativeTarget "Fylo Dark Theme Landing Page (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				90D4F2F528347FE3003B7048 /* Debug */,
@@ -440,7 +468,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		90D4F2F728347FE3003B7048 /* Build configuration list for PBXNativeTarget "FyloDarkThemeLandingPage (macOS)" */ = {
+		90D4F2F728347FE3003B7048 /* Build configuration list for PBXNativeTarget "Fylo Dark Theme Landing Page (macOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				90D4F2F828347FE3003B7048 /* Debug */,
