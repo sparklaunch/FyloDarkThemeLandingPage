@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject private var featureStorage: FeatureStorage = .init()
     var body: some View {
         ZStack(alignment: .top) {
             BackgroundView()
@@ -23,11 +24,13 @@ struct ContentView: View {
                 }
             }
         }
+        .environmentObject(featureStorage)
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+            .environmentObject(FeatureStorage())
     }
 }
