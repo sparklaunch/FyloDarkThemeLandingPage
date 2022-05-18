@@ -18,6 +18,7 @@
 		90D4F3022834826A003B7048 /* TopNavigationItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4F3012834826A003B7048 /* TopNavigationItemView.swift */; };
 		90D4F30428348359003B7048 /* IntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4F30328348359003B7048 /* IntroView.swift */; };
 		90D4F306283483B3003B7048 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4F305283483B3003B7048 /* HeaderView.swift */; };
+		90D4F3082834847C003B7048 /* GetStartedButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4F3072834847C003B7048 /* GetStartedButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		90D4F3012834826A003B7048 /* TopNavigationItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopNavigationItemView.swift; sourceTree = "<group>"; };
 		90D4F30328348359003B7048 /* IntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroView.swift; sourceTree = "<group>"; };
 		90D4F305283483B3003B7048 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		90D4F3072834847C003B7048 /* GetStartedButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetStartedButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 				90D4F3012834826A003B7048 /* TopNavigationItemView.swift */,
 				90D4F30328348359003B7048 /* IntroView.swift */,
 				90D4F305283483B3003B7048 /* HeaderView.swift */,
+				90D4F3072834847C003B7048 /* GetStartedButtonView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -218,6 +221,7 @@
 				90D4F30028348225003B7048 /* TopNavigationView.swift in Sources */,
 				90D4F2FE283481EB003B7048 /* BackgroundView.swift in Sources */,
 				90D4F2EE28347FE3003B7048 /* ContentView.swift in Sources */,
+				90D4F3082834847C003B7048 /* GetStartedButtonView.swift in Sources */,
 				90D4F2EC28347FE3003B7048 /* FyloDarkThemeLandingPageApp.swift in Sources */,
 				90D4F3022834826A003B7048 /* TopNavigationItemView.swift in Sources */,
 				90D4F30428348359003B7048 /* IntroView.swift in Sources */,

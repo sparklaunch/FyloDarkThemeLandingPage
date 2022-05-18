@@ -12,9 +12,15 @@ struct ContentView: View {
         ZStack(alignment: .top) {
             BackgroundView()
             VStack {
-                TopNavigationView()
-                IntroView()
-                HeaderView()
+                VStack(spacing: 24) {
+                    TopNavigationView()
+                    IntroView()
+                    HeaderView()
+                    GetStartedButtonView()
+                }
+                VStack {
+                    
+                }
             }
         }
     }
