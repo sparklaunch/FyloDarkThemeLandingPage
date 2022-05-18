@@ -22,6 +22,7 @@
 		90D4F30A28348528003B7048 /* Feature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4F30928348528003B7048 /* Feature.swift */; };
 		90D4F30C283485FA003B7048 /* FeatureStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4F30B283485FA003B7048 /* FeatureStorage.swift */; };
 		90D4F30E283486D4003B7048 /* FeatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4F30D283486D4003B7048 /* FeatureView.swift */; };
+		90D4F31028348899003B7048 /* StayProductiveIllustrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4F30F28348899003B7048 /* StayProductiveIllustrationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		90D4F30928348528003B7048 /* Feature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feature.swift; sourceTree = "<group>"; };
 		90D4F30B283485FA003B7048 /* FeatureStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureStorage.swift; sourceTree = "<group>"; };
 		90D4F30D283486D4003B7048 /* FeatureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureView.swift; sourceTree = "<group>"; };
+		90D4F30F28348899003B7048 /* StayProductiveIllustrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StayProductiveIllustrationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +127,7 @@
 				90D4F305283483B3003B7048 /* HeaderView.swift */,
 				90D4F3072834847C003B7048 /* GetStartedButtonView.swift */,
 				90D4F30D283486D4003B7048 /* FeatureView.swift */,
+				90D4F30F28348899003B7048 /* StayProductiveIllustrationView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -233,6 +236,7 @@
 				90D4F3082834847C003B7048 /* GetStartedButtonView.swift in Sources */,
 				90D4F2EC28347FE3003B7048 /* FyloDarkThemeLandingPageApp.swift in Sources */,
 				90D4F3022834826A003B7048 /* TopNavigationItemView.swift in Sources */,
+				90D4F31028348899003B7048 /* StayProductiveIllustrationView.swift in Sources */,
 				90D4F30C283485FA003B7048 /* FeatureStorage.swift in Sources */,
 				90D4F30E283486D4003B7048 /* FeatureView.swift in Sources */,
 				90D4F30A28348528003B7048 /* Feature.swift in Sources */,

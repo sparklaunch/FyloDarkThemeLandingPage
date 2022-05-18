@@ -1,5 +1,5 @@
 //
-//  IntroView.swift
+//  StayProductiveIllustrationView.swift
 //  Fylo Dark Theme Landing Page (iOS)
 //
 //  Created by Jinwook Kim on 2022/05/18.
@@ -7,18 +7,18 @@
 
 import SwiftUI
 
-struct IntroView: View {
+struct StayProductiveIllustrationView: View {
     var body: some View {
-        Image(decorative: "Intro")
+        Image(decorative: "StayProductive")
             .resizable()
-            .scaledToFill()
+            .scaledToFit()
             .padding()
     }
 }
 
-struct IntroView_Previews: PreviewProvider {
+struct StayProductiveIllustrationView_Previews: PreviewProvider {
     static var previews: some View {
-        IntroView()
+        StayProductiveIllustrationView()
             .background(Color("BackgroundColor"))
             .previewLayout(.sizeThatFits)
     }

@@ -15,6 +15,9 @@ class FeatureStorage: ObservableObject {
 """),
         .init(imageName: "Collaboration", title: "Real-time collaboration", detail: """
 Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required.
+"""),
+        .init(imageName: "AnyFile", title: "Store any type of file", detail: """
+Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all file types to be securely stored and shared.
 """)
     ]
 }
