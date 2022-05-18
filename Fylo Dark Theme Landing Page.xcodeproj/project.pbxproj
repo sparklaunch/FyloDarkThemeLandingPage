@@ -16,6 +16,7 @@
 		90D4F2FE283481EB003B7048 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4F2FD283481EB003B7048 /* BackgroundView.swift */; };
 		90D4F30028348225003B7048 /* TopNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4F2FF28348225003B7048 /* TopNavigationView.swift */; };
 		90D4F3022834826A003B7048 /* TopNavigationItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4F3012834826A003B7048 /* TopNavigationItemView.swift */; };
+		90D4F30428348359003B7048 /* IntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4F30328348359003B7048 /* IntroView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		90D4F2FD283481EB003B7048 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
 		90D4F2FF28348225003B7048 /* TopNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopNavigationView.swift; sourceTree = "<group>"; };
 		90D4F3012834826A003B7048 /* TopNavigationItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopNavigationItemView.swift; sourceTree = "<group>"; };
+		90D4F30328348359003B7048 /* IntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 				90D4F2FD283481EB003B7048 /* BackgroundView.swift */,
 				90D4F2FF28348225003B7048 /* TopNavigationView.swift */,
 				90D4F3012834826A003B7048 /* TopNavigationItemView.swift */,
+				90D4F30328348359003B7048 /* IntroView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -214,6 +217,7 @@
 				90D4F2EE28347FE3003B7048 /* ContentView.swift in Sources */,
 				90D4F2EC28347FE3003B7048 /* FyloDarkThemeLandingPageApp.swift in Sources */,
 				90D4F3022834826A003B7048 /* TopNavigationItemView.swift in Sources */,
+				90D4F30428348359003B7048 /* IntroView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
