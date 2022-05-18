@@ -4,6 +4,16 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Fylo Dark Theme Landing Page (iOS).xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>Fylo Dark Theme Landing Page (macOS).xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>FyloDarkThemeLandingPage (iOS).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>

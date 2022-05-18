@@ -25,6 +25,7 @@
 		90D4F31028348899003B7048 /* StayProductiveIllustrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4F30F28348899003B7048 /* StayProductiveIllustrationView.swift */; };
 		90D4F31228348904003B7048 /* StayProductiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4F31128348904003B7048 /* StayProductiveView.swift */; };
 		90D4F314283489D7003B7048 /* SeeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4F313283489D7003B7048 /* SeeDetailView.swift */; };
+		90D4F31628348BD4003B7048 /* Testimonial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4F31528348BD4003B7048 /* Testimonial.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		90D4F30F28348899003B7048 /* StayProductiveIllustrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StayProductiveIllustrationView.swift; sourceTree = "<group>"; };
 		90D4F31128348904003B7048 /* StayProductiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StayProductiveView.swift; sourceTree = "<group>"; };
 		90D4F313283489D7003B7048 /* SeeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeeDetailView.swift; sourceTree = "<group>"; };
+		90D4F31528348BD4003B7048 /* Testimonial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Testimonial.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 			children = (
 				90D4F30928348528003B7048 /* Feature.swift */,
 				90D4F30B283485FA003B7048 /* FeatureStorage.swift */,
+				90D4F31528348BD4003B7048 /* Testimonial.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -245,6 +248,7 @@
 				90D4F3022834826A003B7048 /* TopNavigationItemView.swift in Sources */,
 				90D4F31028348899003B7048 /* StayProductiveIllustrationView.swift in Sources */,
 				90D4F30C283485FA003B7048 /* FeatureStorage.swift in Sources */,
+				90D4F31628348BD4003B7048 /* Testimonial.swift in Sources */,
 				90D4F30E283486D4003B7048 /* FeatureView.swift in Sources */,
 				90D4F30A28348528003B7048 /* Feature.swift in Sources */,
 				90D4F30428348359003B7048 /* IntroView.swift in Sources */,
