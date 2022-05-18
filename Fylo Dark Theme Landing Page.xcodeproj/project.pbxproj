@@ -27,6 +27,8 @@
 		90D4F314283489D7003B7048 /* SeeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4F313283489D7003B7048 /* SeeDetailView.swift */; };
 		90D4F31628348BD4003B7048 /* Testimonial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4F31528348BD4003B7048 /* Testimonial.swift */; };
 		90DFF20C283491B700B9DE16 /* TestimonialStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DFF20B283491B700B9DE16 /* TestimonialStorage.swift */; };
+		90DFF20E2834929700B9DE16 /* TestimonialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DFF20D2834929700B9DE16 /* TestimonialView.swift */; };
+		90DFF210283495CD00B9DE16 /* QuotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DFF20F283495CD00B9DE16 /* QuotesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +52,8 @@
 		90D4F313283489D7003B7048 /* SeeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeeDetailView.swift; sourceTree = "<group>"; };
 		90D4F31528348BD4003B7048 /* Testimonial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Testimonial.swift; sourceTree = "<group>"; };
 		90DFF20B283491B700B9DE16 /* TestimonialStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestimonialStorage.swift; sourceTree = "<group>"; };
+		90DFF20D2834929700B9DE16 /* TestimonialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestimonialView.swift; sourceTree = "<group>"; };
+		90DFF20F283495CD00B9DE16 /* QuotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +144,8 @@
 				90D4F30F28348899003B7048 /* StayProductiveIllustrationView.swift */,
 				90D4F31128348904003B7048 /* StayProductiveView.swift */,
 				90D4F313283489D7003B7048 /* SeeDetailView.swift */,
+				90DFF20D2834929700B9DE16 /* TestimonialView.swift */,
+				90DFF20F283495CD00B9DE16 /* QuotesView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -253,10 +259,12 @@
 				90D4F31028348899003B7048 /* StayProductiveIllustrationView.swift in Sources */,
 				90D4F30C283485FA003B7048 /* FeatureStorage.swift in Sources */,
 				90D4F31628348BD4003B7048 /* Testimonial.swift in Sources */,
+				90DFF210283495CD00B9DE16 /* QuotesView.swift in Sources */,
 				90D4F30E283486D4003B7048 /* FeatureView.swift in Sources */,
 				90D4F30A28348528003B7048 /* Feature.swift in Sources */,
 				90D4F30428348359003B7048 /* IntroView.swift in Sources */,
 				90D4F306283483B3003B7048 /* HeaderView.swift in Sources */,
+				90DFF20E2834929700B9DE16 /* TestimonialView.swift in Sources */,
 				90D4F314283489D7003B7048 /* SeeDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

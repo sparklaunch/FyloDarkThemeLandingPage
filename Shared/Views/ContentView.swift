@@ -32,6 +32,14 @@ struct ContentView: View {
                             StayProductiveView()
                             SeeDetailView()
                         }
+                        VStack {
+                            ForEach(testimonialStorage.testimonials) { testimonial in
+                                TestimonialView(testimonial: testimonial)
+                            }
+                        }
+                        .overlay(
+                            QuotesView()
+                            , alignment: .topLeading)
                     }
                     .padding(.top, 44)
                 }
