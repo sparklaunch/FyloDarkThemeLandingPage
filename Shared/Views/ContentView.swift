@@ -14,6 +14,7 @@ struct ContentView: View {
             VStack {
                 TopNavigationView()
                 IntroView()
+                HeaderView()
             }
         }
     }
