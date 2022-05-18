@@ -26,6 +26,7 @@
 		90D4F31228348904003B7048 /* StayProductiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4F31128348904003B7048 /* StayProductiveView.swift */; };
 		90D4F314283489D7003B7048 /* SeeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4F313283489D7003B7048 /* SeeDetailView.swift */; };
 		90D4F31628348BD4003B7048 /* Testimonial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4F31528348BD4003B7048 /* Testimonial.swift */; };
+		90DFF20C283491B700B9DE16 /* TestimonialStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DFF20B283491B700B9DE16 /* TestimonialStorage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		90D4F31128348904003B7048 /* StayProductiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StayProductiveView.swift; sourceTree = "<group>"; };
 		90D4F313283489D7003B7048 /* SeeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeeDetailView.swift; sourceTree = "<group>"; };
 		90D4F31528348BD4003B7048 /* Testimonial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Testimonial.swift; sourceTree = "<group>"; };
+		90DFF20B283491B700B9DE16 /* TestimonialStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestimonialStorage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 				90D4F30928348528003B7048 /* Feature.swift */,
 				90D4F30B283485FA003B7048 /* FeatureStorage.swift */,
 				90D4F31528348BD4003B7048 /* Testimonial.swift */,
+				90DFF20B283491B700B9DE16 /* TestimonialStorage.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -240,6 +243,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				90D4F30028348225003B7048 /* TopNavigationView.swift in Sources */,
+				90DFF20C283491B700B9DE16 /* TestimonialStorage.swift in Sources */,
 				90D4F2FE283481EB003B7048 /* BackgroundView.swift in Sources */,
 				90D4F31228348904003B7048 /* StayProductiveView.swift in Sources */,
 				90D4F2EE28347FE3003B7048 /* ContentView.swift in Sources */,

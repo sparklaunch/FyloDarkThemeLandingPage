@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     @StateObject private var featureStorage: FeatureStorage = .init()
+    @StateObject private var testimonialStorage: TestimonialStorage = .init()
     var body: some View {
         ScrollView {
             VStack {
@@ -35,6 +36,7 @@ struct ContentView: View {
                     .padding(.top, 44)
                 }
                 .environmentObject(featureStorage)
+                .environmentObject(testimonialStorage)
             }
         }
         .edgesIgnoringSafeArea(.all)
@@ -48,5 +50,6 @@ struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
             .environmentObject(FeatureStorage())
+            .environmentObject(TestimonialStorage())
     }
 }
