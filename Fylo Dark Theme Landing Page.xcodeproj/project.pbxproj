@@ -160,19 +160,47 @@
 		90D4F2FC28347FFD003B7048 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				90DFF22F2835D14500B9DE16 /* Misc */,
+				90DFF22E2835D12200B9DE16 /* Footer */,
+				90DFF22D2835D11100B9DE16 /* StayProductive */,
+				90DFF22C2835D0E400B9DE16 /* Header */,
 				90D4F2DD28347FDE003B7048 /* ContentView.swift */,
-				90D4F2FD283481EB003B7048 /* BackgroundView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		90DFF2292835CB2C00B9DE16 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				90DFF22A2835CB3B00B9DE16 /* CustomTextFieldStyle.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		90DFF22C2835D0E400B9DE16 /* Header */ = {
+			isa = PBXGroup;
+			children = (
 				90D4F2FF28348225003B7048 /* TopNavigationView.swift */,
 				90D4F3012834826A003B7048 /* TopNavigationItemView.swift */,
 				90D4F30328348359003B7048 /* IntroView.swift */,
 				90D4F305283483B3003B7048 /* HeaderView.swift */,
 				90D4F3072834847C003B7048 /* GetStartedButtonView.swift */,
-				90D4F30D283486D4003B7048 /* FeatureView.swift */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		90DFF22D2835D11100B9DE16 /* StayProductive */ = {
+			isa = PBXGroup;
+			children = (
 				90D4F30F28348899003B7048 /* StayProductiveIllustrationView.swift */,
 				90D4F31128348904003B7048 /* StayProductiveView.swift */,
-				90D4F313283489D7003B7048 /* SeeDetailView.swift */,
-				90DFF20D2834929700B9DE16 /* TestimonialView.swift */,
-				90DFF20F283495CD00B9DE16 /* QuotesView.swift */,
+			);
+			path = StayProductive;
+			sourceTree = "<group>";
+		};
+		90DFF22E2835D12200B9DE16 /* Footer */ = {
+			isa = PBXGroup;
+			children = (
 				90DFF2112835C25C00B9DE16 /* FooterView.swift */,
 				90DFF2132835C28200B9DE16 /* FooterLogoView.swift */,
 				90DFF2152835C3A300B9DE16 /* FooterLocationView.swift */,
@@ -184,17 +212,21 @@
 				90DFF2212835C6D100B9DE16 /* FooterContactUsItemView.swift */,
 				90DFF2232835C74D00B9DE16 /* FooterSocialMediaView.swift */,
 				90DFF2252835C76200B9DE16 /* FooterSocialMediaItemView.swift */,
-				90DFF2272835C94F00B9DE16 /* GetEarlyAccessView.swift */,
 			);
-			path = Views;
+			path = Footer;
 			sourceTree = "<group>";
 		};
-		90DFF2292835CB2C00B9DE16 /* Utilities */ = {
+		90DFF22F2835D14500B9DE16 /* Misc */ = {
 			isa = PBXGroup;
 			children = (
-				90DFF22A2835CB3B00B9DE16 /* CustomTextFieldStyle.swift */,
+				90D4F2FD283481EB003B7048 /* BackgroundView.swift */,
+				90D4F30D283486D4003B7048 /* FeatureView.swift */,
+				90D4F313283489D7003B7048 /* SeeDetailView.swift */,
+				90DFF20D2834929700B9DE16 /* TestimonialView.swift */,
+				90DFF20F283495CD00B9DE16 /* QuotesView.swift */,
+				90DFF2272835C94F00B9DE16 /* GetEarlyAccessView.swift */,
 			);
-			path = Utilities;
+			path = Misc;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
