@@ -16,6 +16,7 @@ struct FooterView: View {
                 VStack(alignment: .leading, spacing: .zero) {
                     FooterLocationView()
                     FooterContactView()
+                    FooterEmailView()
                 }
             }
         }

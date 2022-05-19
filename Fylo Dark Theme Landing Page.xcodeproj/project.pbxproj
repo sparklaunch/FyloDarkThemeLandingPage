@@ -33,6 +33,7 @@
 		90DFF2142835C28200B9DE16 /* FooterLogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DFF2132835C28200B9DE16 /* FooterLogoView.swift */; };
 		90DFF2162835C3A300B9DE16 /* FooterLocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DFF2152835C3A300B9DE16 /* FooterLocationView.swift */; };
 		90DFF2182835C48A00B9DE16 /* FooterContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DFF2172835C48A00B9DE16 /* FooterContactView.swift */; };
+		90DFF21A2835C55300B9DE16 /* FooterEmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DFF2192835C55300B9DE16 /* FooterEmailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +63,7 @@
 		90DFF2132835C28200B9DE16 /* FooterLogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterLogoView.swift; sourceTree = "<group>"; };
 		90DFF2152835C3A300B9DE16 /* FooterLocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterLocationView.swift; sourceTree = "<group>"; };
 		90DFF2172835C48A00B9DE16 /* FooterContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterContactView.swift; sourceTree = "<group>"; };
+		90DFF2192835C55300B9DE16 /* FooterEmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterEmailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +160,7 @@
 				90DFF2132835C28200B9DE16 /* FooterLogoView.swift */,
 				90DFF2152835C3A300B9DE16 /* FooterLocationView.swift */,
 				90DFF2172835C48A00B9DE16 /* FooterContactView.swift */,
+				90DFF2192835C55300B9DE16 /* FooterEmailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -282,6 +285,7 @@
 				90D4F306283483B3003B7048 /* HeaderView.swift in Sources */,
 				90DFF20E2834929700B9DE16 /* TestimonialView.swift in Sources */,
 				90D4F314283489D7003B7048 /* SeeDetailView.swift in Sources */,
+				90DFF21A2835C55300B9DE16 /* FooterEmailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
