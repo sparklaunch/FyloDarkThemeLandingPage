@@ -31,6 +31,7 @@
 		90DFF210283495CD00B9DE16 /* QuotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DFF20F283495CD00B9DE16 /* QuotesView.swift */; };
 		90DFF2122835C25D00B9DE16 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DFF2112835C25C00B9DE16 /* FooterView.swift */; };
 		90DFF2142835C28200B9DE16 /* FooterLogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DFF2132835C28200B9DE16 /* FooterLogoView.swift */; };
+		90DFF2162835C3A300B9DE16 /* FooterLocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DFF2152835C3A300B9DE16 /* FooterLocationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +59,7 @@
 		90DFF20F283495CD00B9DE16 /* QuotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesView.swift; sourceTree = "<group>"; };
 		90DFF2112835C25C00B9DE16 /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
 		90DFF2132835C28200B9DE16 /* FooterLogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterLogoView.swift; sourceTree = "<group>"; };
+		90DFF2152835C3A300B9DE16 /* FooterLocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterLocationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +154,7 @@
 				90DFF20F283495CD00B9DE16 /* QuotesView.swift */,
 				90DFF2112835C25C00B9DE16 /* FooterView.swift */,
 				90DFF2132835C28200B9DE16 /* FooterLogoView.swift */,
+				90DFF2152835C3A300B9DE16 /* FooterLocationView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 				90D4F2EE28347FE3003B7048 /* ContentView.swift in Sources */,
 				90D4F3082834847C003B7048 /* GetStartedButtonView.swift in Sources */,
 				90D4F2EC28347FE3003B7048 /* FyloDarkThemeLandingPageApp.swift in Sources */,
+				90DFF2162835C3A300B9DE16 /* FooterLocationView.swift in Sources */,
 				90D4F3022834826A003B7048 /* TopNavigationItemView.swift in Sources */,
 				90D4F31028348899003B7048 /* StayProductiveIllustrationView.swift in Sources */,
 				90D4F30C283485FA003B7048 /* FeatureStorage.swift in Sources */,

@@ -13,6 +13,9 @@ struct FooterView: View {
             Color("FooterBackgroundColor")
             VStack(alignment: .leading) {
                 FooterLogoView()
+                VStack {
+                    FooterLocationView()
+                }
             }
         }
         .fixedSize(horizontal: false, vertical: true)
