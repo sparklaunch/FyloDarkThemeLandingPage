@@ -36,6 +36,8 @@
 		90DFF21A2835C55300B9DE16 /* FooterEmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DFF2192835C55300B9DE16 /* FooterEmailView.swift */; };
 		90DFF21C2835C5C700B9DE16 /* FooterAboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DFF21B2835C5C700B9DE16 /* FooterAboutView.swift */; };
 		90DFF21E2835C5ED00B9DE16 /* FooterAboutItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DFF21D2835C5ED00B9DE16 /* FooterAboutItemView.swift */; };
+		90DFF2202835C6B300B9DE16 /* FooterContactUsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DFF21F2835C6B300B9DE16 /* FooterContactUsView.swift */; };
+		90DFF2222835C6D100B9DE16 /* FooterContactUsItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DFF2212835C6D100B9DE16 /* FooterContactUsItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +70,8 @@
 		90DFF2192835C55300B9DE16 /* FooterEmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterEmailView.swift; sourceTree = "<group>"; };
 		90DFF21B2835C5C700B9DE16 /* FooterAboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterAboutView.swift; sourceTree = "<group>"; };
 		90DFF21D2835C5ED00B9DE16 /* FooterAboutItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterAboutItemView.swift; sourceTree = "<group>"; };
+		90DFF21F2835C6B300B9DE16 /* FooterContactUsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterContactUsView.swift; sourceTree = "<group>"; };
+		90DFF2212835C6D100B9DE16 /* FooterContactUsItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterContactUsItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +171,8 @@
 				90DFF2192835C55300B9DE16 /* FooterEmailView.swift */,
 				90DFF21B2835C5C700B9DE16 /* FooterAboutView.swift */,
 				90DFF21D2835C5ED00B9DE16 /* FooterAboutItemView.swift */,
+				90DFF21F2835C6B300B9DE16 /* FooterContactUsView.swift */,
+				90DFF2212835C6D100B9DE16 /* FooterContactUsItemView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -281,6 +287,7 @@
 				90D4F2EC28347FE3003B7048 /* FyloDarkThemeLandingPageApp.swift in Sources */,
 				90DFF2162835C3A300B9DE16 /* FooterLocationView.swift in Sources */,
 				90D4F3022834826A003B7048 /* TopNavigationItemView.swift in Sources */,
+				90DFF2202835C6B300B9DE16 /* FooterContactUsView.swift in Sources */,
 				90D4F31028348899003B7048 /* StayProductiveIllustrationView.swift in Sources */,
 				90D4F30C283485FA003B7048 /* FeatureStorage.swift in Sources */,
 				90D4F31628348BD4003B7048 /* Testimonial.swift in Sources */,
@@ -290,6 +297,7 @@
 				90DFF21E2835C5ED00B9DE16 /* FooterAboutItemView.swift in Sources */,
 				90D4F30428348359003B7048 /* IntroView.swift in Sources */,
 				90D4F306283483B3003B7048 /* HeaderView.swift in Sources */,
+				90DFF2222835C6D100B9DE16 /* FooterContactUsItemView.swift in Sources */,
 				90DFF20E2834929700B9DE16 /* TestimonialView.swift in Sources */,
 				90DFF21C2835C5C700B9DE16 /* FooterAboutView.swift in Sources */,
 				90D4F314283489D7003B7048 /* SeeDetailView.swift in Sources */,

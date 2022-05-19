@@ -19,6 +19,7 @@ struct FooterView: View {
                     FooterEmailView()
                 }
                 FooterAboutView()
+                FooterContactUsView()
             }
         }
         .fixedSize(horizontal: false, vertical: true)
