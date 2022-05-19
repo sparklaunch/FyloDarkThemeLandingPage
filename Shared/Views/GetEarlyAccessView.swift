@@ -32,11 +32,11 @@ struct GetEarlyAccessView: View {
                     GetStartedButtonView()
                 }
             }
-            .padding(36)
+            .padding(24)
         }
         .cornerRadius(15)
         .shadow(radius: 10)
-        .padding()
+        .padding(24)
         .fixedSize(horizontal: false, vertical: true)
     }
 }

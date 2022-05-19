@@ -25,7 +25,7 @@ struct FooterView: View {
                 FooterSocialMediaView()
             }
             .padding(.bottom, 30)
-            .padding(.top, 200)
+            .padding(.top, 270)
         }
         .fixedSize(horizontal: false, vertical: true)
         .overlay(GetEarlyAccessView()
