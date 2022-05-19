@@ -32,6 +32,7 @@
 		90DFF2122835C25D00B9DE16 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DFF2112835C25C00B9DE16 /* FooterView.swift */; };
 		90DFF2142835C28200B9DE16 /* FooterLogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DFF2132835C28200B9DE16 /* FooterLogoView.swift */; };
 		90DFF2162835C3A300B9DE16 /* FooterLocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DFF2152835C3A300B9DE16 /* FooterLocationView.swift */; };
+		90DFF2182835C48A00B9DE16 /* FooterContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DFF2172835C48A00B9DE16 /* FooterContactView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +61,7 @@
 		90DFF2112835C25C00B9DE16 /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
 		90DFF2132835C28200B9DE16 /* FooterLogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterLogoView.swift; sourceTree = "<group>"; };
 		90DFF2152835C3A300B9DE16 /* FooterLocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterLocationView.swift; sourceTree = "<group>"; };
+		90DFF2172835C48A00B9DE16 /* FooterContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterContactView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +157,7 @@
 				90DFF2112835C25C00B9DE16 /* FooterView.swift */,
 				90DFF2132835C28200B9DE16 /* FooterLogoView.swift */,
 				90DFF2152835C3A300B9DE16 /* FooterLocationView.swift */,
+				90DFF2172835C48A00B9DE16 /* FooterContactView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 				90DFF20C283491B700B9DE16 /* TestimonialStorage.swift in Sources */,
 				90DFF2142835C28200B9DE16 /* FooterLogoView.swift in Sources */,
 				90DFF2122835C25D00B9DE16 /* FooterView.swift in Sources */,
+				90DFF2182835C48A00B9DE16 /* FooterContactView.swift in Sources */,
 				90D4F2FE283481EB003B7048 /* BackgroundView.swift in Sources */,
 				90D4F31228348904003B7048 /* StayProductiveView.swift in Sources */,
 				90D4F2EE28347FE3003B7048 /* ContentView.swift in Sources */,

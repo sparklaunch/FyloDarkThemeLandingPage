@@ -13,8 +13,9 @@ struct FooterView: View {
             Color("FooterBackgroundColor")
             VStack(alignment: .leading) {
                 FooterLogoView()
-                VStack {
+                VStack(alignment: .leading, spacing: .zero) {
                     FooterLocationView()
+                    FooterContactView()
                 }
             }
         }
