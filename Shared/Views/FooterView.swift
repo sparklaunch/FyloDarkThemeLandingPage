@@ -9,17 +9,21 @@ import SwiftUI
 
 struct FooterView: View {
     var body: some View {
-        ZStack(alignment: .topLeading) {
+        ZStack {
             Color("FooterBackgroundColor")
-            VStack(alignment: .leading, spacing: 24) {
-                FooterLogoView()
-                VStack(alignment: .leading, spacing: .zero) {
-                    FooterLocationView()
-                    FooterContactView()
-                    FooterEmailView()
+            VStack {
+                VStack(alignment: .leading, spacing: 24) {
+                    FooterLogoView()
+                    LazyVStack(alignment: .leading, spacing: .zero) {
+                        FooterLocationView()
+                        FooterContactView()
+                        FooterEmailView()
+                    }
+                    FooterAboutView()
+                    FooterContactUsView()
                 }
-                FooterAboutView()
-                FooterContactUsView()
+                .frame(maxWidth: .infinity)
+                FooterSocialMediaView()
             }
         }
         .fixedSize(horizontal: false, vertical: true)

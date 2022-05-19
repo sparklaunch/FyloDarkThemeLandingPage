@@ -38,6 +38,8 @@
 		90DFF21E2835C5ED00B9DE16 /* FooterAboutItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DFF21D2835C5ED00B9DE16 /* FooterAboutItemView.swift */; };
 		90DFF2202835C6B300B9DE16 /* FooterContactUsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DFF21F2835C6B300B9DE16 /* FooterContactUsView.swift */; };
 		90DFF2222835C6D100B9DE16 /* FooterContactUsItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DFF2212835C6D100B9DE16 /* FooterContactUsItemView.swift */; };
+		90DFF2242835C74D00B9DE16 /* FooterSocialMediaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DFF2232835C74D00B9DE16 /* FooterSocialMediaView.swift */; };
+		90DFF2262835C76200B9DE16 /* FooterSocialMediaItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DFF2252835C76200B9DE16 /* FooterSocialMediaItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,6 +74,8 @@
 		90DFF21D2835C5ED00B9DE16 /* FooterAboutItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterAboutItemView.swift; sourceTree = "<group>"; };
 		90DFF21F2835C6B300B9DE16 /* FooterContactUsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterContactUsView.swift; sourceTree = "<group>"; };
 		90DFF2212835C6D100B9DE16 /* FooterContactUsItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterContactUsItemView.swift; sourceTree = "<group>"; };
+		90DFF2232835C74D00B9DE16 /* FooterSocialMediaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterSocialMediaView.swift; sourceTree = "<group>"; };
+		90DFF2252835C76200B9DE16 /* FooterSocialMediaItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterSocialMediaItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,6 +177,8 @@
 				90DFF21D2835C5ED00B9DE16 /* FooterAboutItemView.swift */,
 				90DFF21F2835C6B300B9DE16 /* FooterContactUsView.swift */,
 				90DFF2212835C6D100B9DE16 /* FooterContactUsItemView.swift */,
+				90DFF2232835C74D00B9DE16 /* FooterSocialMediaView.swift */,
+				90DFF2252835C76200B9DE16 /* FooterSocialMediaItemView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -297,7 +303,9 @@
 				90DFF21E2835C5ED00B9DE16 /* FooterAboutItemView.swift in Sources */,
 				90D4F30428348359003B7048 /* IntroView.swift in Sources */,
 				90D4F306283483B3003B7048 /* HeaderView.swift in Sources */,
+				90DFF2262835C76200B9DE16 /* FooterSocialMediaItemView.swift in Sources */,
 				90DFF2222835C6D100B9DE16 /* FooterContactUsItemView.swift in Sources */,
+				90DFF2242835C74D00B9DE16 /* FooterSocialMediaView.swift in Sources */,
 				90DFF20E2834929700B9DE16 /* TestimonialView.swift in Sources */,
 				90DFF21C2835C5C700B9DE16 /* FooterAboutView.swift in Sources */,
 				90D4F314283489D7003B7048 /* SeeDetailView.swift in Sources */,
