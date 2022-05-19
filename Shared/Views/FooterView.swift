@@ -22,17 +22,21 @@ struct FooterView: View {
                     FooterAboutView()
                     FooterContactUsView()
                 }
-                .frame(maxWidth: .infinity)
                 FooterSocialMediaView()
             }
+            .padding(.bottom, 30)
+            .padding(.top, 200)
         }
         .fixedSize(horizontal: false, vertical: true)
+        .overlay(GetEarlyAccessView()
+            .offset(x: .zero, y: -200), alignment: .top)
     }
 }
 
 struct FooterView_Previews: PreviewProvider {
     static var previews: some View {
         FooterView()
+            .padding(.top, 300)
             .previewLayout(.sizeThatFits)
     }
 }
