@@ -29,6 +29,8 @@
 		90DFF20C283491B700B9DE16 /* TestimonialStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DFF20B283491B700B9DE16 /* TestimonialStorage.swift */; };
 		90DFF20E2834929700B9DE16 /* TestimonialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DFF20D2834929700B9DE16 /* TestimonialView.swift */; };
 		90DFF210283495CD00B9DE16 /* QuotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DFF20F283495CD00B9DE16 /* QuotesView.swift */; };
+		90DFF2122835C25D00B9DE16 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DFF2112835C25C00B9DE16 /* FooterView.swift */; };
+		90DFF2142835C28200B9DE16 /* FooterLogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DFF2132835C28200B9DE16 /* FooterLogoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +56,8 @@
 		90DFF20B283491B700B9DE16 /* TestimonialStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestimonialStorage.swift; sourceTree = "<group>"; };
 		90DFF20D2834929700B9DE16 /* TestimonialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestimonialView.swift; sourceTree = "<group>"; };
 		90DFF20F283495CD00B9DE16 /* QuotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesView.swift; sourceTree = "<group>"; };
+		90DFF2112835C25C00B9DE16 /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
+		90DFF2132835C28200B9DE16 /* FooterLogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterLogoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +150,8 @@
 				90D4F313283489D7003B7048 /* SeeDetailView.swift */,
 				90DFF20D2834929700B9DE16 /* TestimonialView.swift */,
 				90DFF20F283495CD00B9DE16 /* QuotesView.swift */,
+				90DFF2112835C25C00B9DE16 /* FooterView.swift */,
+				90DFF2132835C28200B9DE16 /* FooterLogoView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -250,6 +256,8 @@
 			files = (
 				90D4F30028348225003B7048 /* TopNavigationView.swift in Sources */,
 				90DFF20C283491B700B9DE16 /* TestimonialStorage.swift in Sources */,
+				90DFF2142835C28200B9DE16 /* FooterLogoView.swift in Sources */,
+				90DFF2122835C25D00B9DE16 /* FooterView.swift in Sources */,
 				90D4F2FE283481EB003B7048 /* BackgroundView.swift in Sources */,
 				90D4F31228348904003B7048 /* StayProductiveView.swift in Sources */,
 				90D4F2EE28347FE3003B7048 /* ContentView.swift in Sources */,

@@ -40,6 +40,7 @@ struct ContentView: View {
                         .overlay(
                             QuotesView()
                             , alignment: .topLeading)
+                        FooterView()
                     }
                     .padding(.top, 44)
                 }
